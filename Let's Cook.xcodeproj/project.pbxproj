@@ -7,23 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F75C547B2B5240C8004EC423 /* RecipeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75C547A2B5240C8004EC423 /* RecipeCollectionViewCell.swift */; };
+		F75C547E2B524144004EC423 /* RecipeImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75C547D2B524144004EC423 /* RecipeImageView.swift */; };
+		F75C54812B5244FC004EC423 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75C54802B5244FC004EC423 /* UIHelper.swift */; };
 		F76427812B51A30E00303845 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76427802B51A30E00303845 /* AppDelegate.swift */; };
 		F76427832B51A30E00303845 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76427822B51A30E00303845 /* SceneDelegate.swift */; };
-		F76427852B51A30E00303845 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76427842B51A30E00303845 /* ViewController.swift */; };
-		F76427882B51A30E00303845 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F76427862B51A30E00303845 /* Main.storyboard */; };
 		F764278A2B51A31100303845 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F76427892B51A31100303845 /* Assets.xcassets */; };
 		F764278D2B51A31100303845 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F764278B2B51A31100303845 /* LaunchScreen.storyboard */; };
+		F76427952B51A4DE00303845 /* LCTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76427942B51A4DE00303845 /* LCTabBarController.swift */; };
+		F76427982B51A7B900303845 /* RecipeFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76427972B51A7B900303845 /* RecipeFeedViewController.swift */; };
+		F764279A2B51A7D000303845 /* BookmarkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76427992B51A7D000303845 /* BookmarkViewController.swift */; };
+		F764279C2B51A83D00303845 /* CreateRecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F764279B2B51A83D00303845 /* CreateRecipeViewController.swift */; };
+		F764279E2B51A85900303845 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F764279D2B51A85900303845 /* NotificationViewController.swift */; };
+		F76427A02B51A86100303845 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F764279F2B51A86100303845 /* ProfileViewController.swift */; };
+		F76427A42B51AFDF00303845 /* LargeTextLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76427A32B51AFDF00303845 /* LargeTextLabel.swift */; };
+		F76427A62B51B10900303845 /* SmallerTextLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76427A52B51B10900303845 /* SmallerTextLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F75C547A2B5240C8004EC423 /* RecipeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCollectionViewCell.swift; sourceTree = "<group>"; };
+		F75C547D2B524144004EC423 /* RecipeImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeImageView.swift; sourceTree = "<group>"; };
+		F75C54802B5244FC004EC423 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 		F764277D2B51A30E00303845 /* Let's Cook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Let's Cook.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F76427802B51A30E00303845 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F76427822B51A30E00303845 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F76427842B51A30E00303845 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F76427872B51A30E00303845 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F76427892B51A31100303845 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F764278C2B51A31100303845 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F764278E2B51A31100303845 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F76427942B51A4DE00303845 /* LCTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCTabBarController.swift; sourceTree = "<group>"; };
+		F76427972B51A7B900303845 /* RecipeFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeFeedViewController.swift; sourceTree = "<group>"; };
+		F76427992B51A7D000303845 /* BookmarkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkViewController.swift; sourceTree = "<group>"; };
+		F764279B2B51A83D00303845 /* CreateRecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateRecipeViewController.swift; sourceTree = "<group>"; };
+		F764279D2B51A85900303845 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		F764279F2B51A86100303845 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		F76427A32B51AFDF00303845 /* LargeTextLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeTextLabel.swift; sourceTree = "<group>"; };
+		F76427A52B51B10900303845 /* SmallerTextLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallerTextLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +55,63 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F75C54762B523826004EC423 /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		F75C54792B5240A6004EC423 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				F75C547A2B5240C8004EC423 /* RecipeCollectionViewCell.swift */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		F75C547C2B52412F004EC423 /* image views */ = {
+			isa = PBXGroup;
+			children = (
+				F75C547D2B524144004EC423 /* RecipeImageView.swift */,
+			);
+			path = "image views";
+			sourceTree = "<group>";
+		};
+		F75C547F2B5244ED004EC423 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F75C54802B5244FC004EC423 /* UIHelper.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		F75C54822B526151004EC423 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F75C54832B526165004EC423 /* Network Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Network Manager";
+			sourceTree = "<group>";
+		};
+		F75C54842B526189004EC423 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				F76427802B51A30E00303845 /* AppDelegate.swift */,
+				F76427822B51A30E00303845 /* SceneDelegate.swift */,
+				F76427892B51A31100303845 /* Assets.xcassets */,
+				F764278B2B51A31100303845 /* LaunchScreen.storyboard */,
+				F764278E2B51A31100303845 /* Info.plist */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
 		F76427742B51A30E00303845 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +131,47 @@
 		F764277F2B51A30E00303845 /* Let's Cook */ = {
 			isa = PBXGroup;
 			children = (
-				F76427802B51A30E00303845 /* AppDelegate.swift */,
-				F76427822B51A30E00303845 /* SceneDelegate.swift */,
-				F76427842B51A30E00303845 /* ViewController.swift */,
-				F76427862B51A30E00303845 /* Main.storyboard */,
-				F76427892B51A31100303845 /* Assets.xcassets */,
-				F764278B2B51A31100303845 /* LaunchScreen.storyboard */,
-				F764278E2B51A31100303845 /* Info.plist */,
+				F75C54842B526189004EC423 /* Support */,
+				F75C54832B526165004EC423 /* Network Manager */,
+				F75C54822B526151004EC423 /* Model */,
+				F75C547F2B5244ED004EC423 /* Utilities */,
+				F76427A12B51AFAD00303845 /* Custom view */,
+				F76427962B51A78C00303845 /* screens */,
+				F76427942B51A4DE00303845 /* LCTabBarController.swift */,
 			);
 			path = "Let's Cook";
+			sourceTree = "<group>";
+		};
+		F76427962B51A78C00303845 /* screens */ = {
+			isa = PBXGroup;
+			children = (
+				F76427972B51A7B900303845 /* RecipeFeedViewController.swift */,
+				F76427992B51A7D000303845 /* BookmarkViewController.swift */,
+				F764279B2B51A83D00303845 /* CreateRecipeViewController.swift */,
+				F764279D2B51A85900303845 /* NotificationViewController.swift */,
+				F764279F2B51A86100303845 /* ProfileViewController.swift */,
+			);
+			path = screens;
+			sourceTree = "<group>";
+		};
+		F76427A12B51AFAD00303845 /* Custom view */ = {
+			isa = PBXGroup;
+			children = (
+				F75C547C2B52412F004EC423 /* image views */,
+				F75C54792B5240A6004EC423 /* cells */,
+				F75C54762B523826004EC423 /* views */,
+				F76427A22B51AFB900303845 /* labels */,
+			);
+			path = "Custom view";
+			sourceTree = "<group>";
+		};
+		F76427A22B51AFB900303845 /* labels */ = {
+			isa = PBXGroup;
+			children = (
+				F76427A32B51AFDF00303845 /* LargeTextLabel.swift */,
+				F76427A52B51B10900303845 /* SmallerTextLabel.swift */,
+			);
+			path = labels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +234,6 @@
 			files = (
 				F764278D2B51A31100303845 /* LaunchScreen.storyboard in Resources */,
 				F764278A2B51A31100303845 /* Assets.xcassets in Resources */,
-				F76427882B51A30E00303845 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +244,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F76427852B51A30E00303845 /* ViewController.swift in Sources */,
+				F75C54812B5244FC004EC423 /* UIHelper.swift in Sources */,
 				F76427812B51A30E00303845 /* AppDelegate.swift in Sources */,
+				F764279E2B51A85900303845 /* NotificationViewController.swift in Sources */,
+				F75C547E2B524144004EC423 /* RecipeImageView.swift in Sources */,
+				F76427982B51A7B900303845 /* RecipeFeedViewController.swift in Sources */,
+				F76427952B51A4DE00303845 /* LCTabBarController.swift in Sources */,
+				F75C547B2B5240C8004EC423 /* RecipeCollectionViewCell.swift in Sources */,
+				F76427A42B51AFDF00303845 /* LargeTextLabel.swift in Sources */,
+				F764279A2B51A7D000303845 /* BookmarkViewController.swift in Sources */,
+				F76427A02B51A86100303845 /* ProfileViewController.swift in Sources */,
+				F764279C2B51A83D00303845 /* CreateRecipeViewController.swift in Sources */,
+				F76427A62B51B10900303845 /* SmallerTextLabel.swift in Sources */,
 				F76427832B51A30E00303845 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +263,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F76427862B51A30E00303845 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F76427872B51A30E00303845 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F764278B2B51A31100303845 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,12 +402,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 26823257QR;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Let's Cook/Info.plist";
+				INFOPLIST_FILE = "Let's Cook/Support/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Let's Cook";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,9 +416,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kpe-letscook.Let-s-Cook";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -322,12 +434,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 26823257QR;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Let's Cook/Info.plist";
+				INFOPLIST_FILE = "Let's Cook/Support/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Let's Cook";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -335,9 +448,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kpe-letscook.Let-s-Cook";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
